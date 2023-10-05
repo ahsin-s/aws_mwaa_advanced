@@ -5,3 +5,4 @@ sudo yum remove unixODBC-utf16 unixODBC-utf16-devel #to avoid conflicts
 sudo ACCEPT_EULA=Y yum install -y msodbcsql18
 
 
+export AWS_DEFAULT_REGION='us-east-1'
